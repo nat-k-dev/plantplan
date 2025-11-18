@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="grid gap-10">
       <DrawerAppBar />
+      <div className="bg-red-800 sm:bg-blue-700 md:bg-green-800 lg:bg-pink-600">Hello</div>
       <div className="px-4 sm:px-10">
         <PlantsList />
       </div>

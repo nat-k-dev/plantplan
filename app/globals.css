@@ -1,15 +1,9 @@
 @import "tailwindcss";
+@import "./styles/generated-breakpoints.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme {
-  --breakpoint-sm: 600px;
-  --breakpoint-md: 900px;
-  --breakpoint-lg: 1200px;
-  --breakpoint-xl: 1536px;
 }
 
 @theme inline {
